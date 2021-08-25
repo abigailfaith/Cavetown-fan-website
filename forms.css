@@ -1,0 +1,32 @@
+    body{
+    font-size: 40px;
+	background-color: #6d8f60;
+	color: white;
+    }
+    input{
+    	margin-top: 20px;
+        height: 40px;
+        width:150px;
+    }
+    select{
+    	height: 40px;
+    	width:150px;
+    	font-size: 30px;
+    	color: #293624;
+        }
+    option{
+    	font-size: 20px;
+        }
+    input[required]{
+    	border-color: #293624;
+    }
+    input [type="text"], input [type="tel"], input [type="number"],
+     input [type="email"], input [type="date"]{
+    	height: 30px;
+    	border-width: 0px 0px 2px 0px;
+    } 
+    button{
+      height: 40px;
+        width:150px;  
+    }
+    

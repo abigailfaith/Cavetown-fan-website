@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="forms.css">
+</head>
+<body>
+	
+	<form method="post">
+		<fieldset>
+			<legend>CONTACT US!</legend>
+
+		<label>Title</label>
+		<select>
+			<option value="" placeholder="select"></option>
+			<option value="Mr.">Mr.</option>
+			<option value="Ms.">Ms.</option>
+			<option value="Mrs.">Mrs.</option>
+			<option value="N/A">N/A</option>
+		</select>
+		<br>
+		<br>
+        <label>Full Name:</label>
+		<input type="text" name="full name" placeholder="John/Jane Doe" required="required">
+		<br>
+		<br>
+		<label>Age:</label>
+		<input type="number" name="age" min="3" max="75" required="required">
+		<br>
+		<br>
+		<label>Gender: </label>
+		<input type="radio" name="gender" value="male">
+		<label>Male</label>
+		<input type="radio" name="gender" value="female">
+		<label>Female</label>
+		<input type="radio" name="gender" value="other">
+		<label>Other</label>
+		<br>
+		<br>
+		<label>Date of Birth: </label>
+		<input type="date" name="dob" required="required">
+		<br>
+		<br>
+		<label>Email Address: </label>
+		<input type="email" name="email" placeholder="abc@efg.xyz" required="required">
+		<br>
+		<br>
+		<label>Contact Details: </label>
+		<input type="tel" name="contact" required="required">
+		<br>
+		<br>
+		<label>Upload an Image: </label>
+		<input type="file" name="image" required="required">
+		<br>
+		<br>
+		<label>Reviews: </label>
+		<textarea ></textarea>
+		<br>
+		<br>
+		</fieldset>
+		<input type="submit" value="Submit">
+		<button type="reset">Reset</button>
+		
+
+</form>
+</body>
+</html>
